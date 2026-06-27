@@ -6,7 +6,20 @@ This document describes the attack simulations performed in the lab and how Wazu
 
 ## Scenario 1: Web Enumeration (Kali Linux - Gobuster)
 
-A Kali Linux machine was used to perform directory enumeration against a target system using Gobuster.
+### A Kali Linux machine was used to perform directory enumeration against a target system using Gobuster.
+
+### on terminal
+
+run:
+
+```
+nmap 192.168.56.0/24
+
+```
+
+![nmap scan](images/nmap.png)
+
+to discover acive hosts
 
 found http  service open on 192.168.56.30
 
