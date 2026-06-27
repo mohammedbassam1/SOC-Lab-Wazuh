@@ -1,30 +1,16 @@
-Windows machine scenario
+ # SOC Lab Attack Scenarios
 
-This scenario demonstrates an end-to-end attack simulation performed in a controlled lab environment to evaluate Wazuh detection capabilities.
-
----
-
-## Scenario Overview
-
-A vulnerable Windows server was discovered exposed within the lab network during a reconnaissance phase. The service was identified through network scanning, revealing open management access.
-
-Using available access credentials obtained during the simulation, the system was accessed remotely using a management tool. The objective was to simulate how an attacker could gain initial access and perform post-compromise activity.
+This document describes the attack simulations performed in the lab and how Wazuh detected and generated alerts from them.
 
 ---
 
-## Post-Access Activity
 
-After gaining access to the Windows machine, internal reconnaissance was performed to understand the environment.
+## Scenario 2: Windows Powershell access (kali -Evilwinrm)
 
-This included:
 
-- System information enumeration
-- Network discovery from within the host
-- User and process inspection
+on terminal 
+```
+nmap 192.168.56.40
+```
 
-PowerShell commands were used to perform system-level enumeration, such as:
 
-```powershell
-Get-Process
-Get-NetTCPConnection
-Get-ComputerInfo
