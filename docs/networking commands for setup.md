@@ -1,5 +1,14 @@
+LAB Networking Commands
 
+This document contains the networking commands and configurations used during the SOC lab.
 
+It includes Linux and Windows commands used for:
+- Network configuration
+- Connectivity testing
+- Device discovery
+- Security and port scanning
+
+These commands were applied in a virtual lab environment (Windows 11 + Ubuntu) to support Wazuh setup and log analysis.
 
 ### Check interfaces:
 ```
