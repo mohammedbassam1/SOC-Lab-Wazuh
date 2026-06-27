@@ -261,7 +261,7 @@ Restart-Service WazuhSvc
 
 
 
-installing atomic red team to test attacks
+## installing atomic red team to test attacks
 
 from git hub 
 
@@ -269,5 +269,3 @@ https://github.com/redcanaryco/atomic-red-team download the zip file  u might ne
 
 
 
-
-Configuring RDP  on windows 11
