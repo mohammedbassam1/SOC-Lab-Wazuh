@@ -31,3 +31,21 @@ A remote PowerShell session was initiated, allowing interaction with the system 
 
 ---
 
+
+## Post-Access Activity
+
+After gaining access, basic system enumeration was performed using PowerShell commands to understand the internal environment of the machine.
+
+The following commands were used:
+
+```powershell
+whoami
+Get-ComputerInfo
+Get-Process
+Get-NetTCPConnection
+Get-Service
+```
+
+![PS](images/powershellcommnads.png)
+
+ذذ
