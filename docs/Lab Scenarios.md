@@ -25,8 +25,9 @@ found http  service open on 192.168.56.30
 
 
 We try  **Directory enumeration** using gobuster
-
-
+```
+gobuster dir -u 192.168.56.60 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
 ![gobuster](images/gobuster.png)
 
 
