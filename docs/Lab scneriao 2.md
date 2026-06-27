@@ -13,4 +13,5 @@ on terminal
 nmap 192.168.56.40
 ```
 
+![nmap scan](images/nmapWin.png)
 
