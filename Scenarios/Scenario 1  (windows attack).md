@@ -68,9 +68,14 @@ Sysmon Process Creation events showing PowerShell activity on the Windows endpoi
 ![netuser](../docs/images/discoveryalert.png)
 
 
+##  Outcome
+
+The attack simulation successfully demonstrated how an exposed remote management service (WinRM) could be used to gain remote access to a Windows endpoint using valid credentials.
+
+After authentication, PowerShell commands were executed to perform basic system and network enumeration. Throughout the attack, Wazuh collected and correlated Windows Security logs, PowerShell Script Block Logging events, and Sysmon process creation events.
+
+This scenario validates Wazuh's effectiveness in detecting and monitoring suspicious administrative activity within a controlled SOC lab environment.
 
 
-The collected events were correlated in the Wazuh Dashboard, allowing the attack sequence to be monitored from initial access to post-compromise enumeration.
 
-These alerts demonstrate Wazuh's ability to detect and monitor suspicious remote administration and post-access activity in real time.
 
