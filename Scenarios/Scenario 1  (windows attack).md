@@ -13,7 +13,7 @@ on terminal
 nmap 192.168.56.40
 ```
 
-![nmap scan](docs/images/nmapWin.png)
+![nmap scan](..docs/images/nmapWin.png)
 
 
 The scan results revealed two exposed services on the target Windows machine:
@@ -27,7 +27,7 @@ Using valid credentials (username and password), access to the Windows machine w
 
 A remote PowerShell session was initiated, allowing interaction with the system from the Kali Linux machine.
 
-![access](docs/images/accessingpowershell.png)
+![access](..docs/images/accessingpowershell.png)
 
 ---
 
@@ -45,7 +45,7 @@ net user
 
 ```
 
-![PS](docs/images/powershellcommnads.png)
+![PS](..docs/images/powershellcommnads.png)
 
 
 ## Detection in Wazuh
@@ -56,7 +56,7 @@ The following events were observed:
 
 Successful Windows logon (Event ID 4624 - Logon Type 3), indicating remote network authentication.
 
-![Log](docs/images/Logonalerts.png)
+![Log](..docs/images/Logonalerts.png)
 
 
 
@@ -65,7 +65,7 @@ Successful Windows logon (Event ID 4624 - Logon Type 3), indicating remote netwo
 
 Sysmon Process Creation events showing PowerShell activity on the Windows endpoint.
 
-![netuser](docs/images/discoveryalert.png)
+![netuser](..docs/images/discoveryalert.png)
 
 
 
