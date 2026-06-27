@@ -58,7 +58,7 @@ sudo ss -tlnp | grep -E '1514|1515|443'
 https://localhost
 ```
 
-![Wazuh Dashboard](images/dashboard.png)
+![Wazuh Dashboard](images/dashboard1.png)
 
 #### on the Ubuntu host itself.
 
