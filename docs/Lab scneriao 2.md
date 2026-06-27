@@ -41,9 +41,8 @@ The following commands were used:
 ```powershell
 whoami
 Get-ComputerInfo
-Get-Process
-Get-NetTCPConnection
-Get-Service
+net user
+
 ```
 
 ![PS](images/powershellcommnads.png)
