@@ -32,10 +32,18 @@ gobuster dir -u 192.168.56.60 -w /usr/share/wordlists/dirbuster/directory-list-2
 
 
 
-we found  these directories we navigate  to them to found somethings
+we found  these directories we navigate  to them to find something we can use to exploit 
+
+in secret  directory we found  password  
+
+![password](images/password.png)
+
+and also we found a DB user that use that password
+
+![username](images/user.png)
 
 
-in secret we found  password  
+
 
 
 
