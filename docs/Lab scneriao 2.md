@@ -57,14 +57,14 @@ The following events were observed:
 
 Successful Windows logon (Event ID 4624 - Logon Type 3), indicating remote network authentication.
 
-[Log](images/Logonalerts.png)
+![Log](images/Logonalerts.png)
 
 
 
 --- 
 
 
-[netuser](images/discoveryalert.png)
+![netuser](images/discoveryalert.png)
 
 PowerShell execution events generated after establishing the remote session.
 Sysmon Process Creation events showing PowerShell activity on the Windows endpoint.
