@@ -65,6 +65,8 @@ By analyzing the Wazuh alerts and web logs, it was identified that:
 - The directory contained sensitive information (e.g., password/config file)
 - Access to this endpoint returned HTTP 200 after enumeration attempts
 
+![access](images/accesspng)
+
 ---
 
 ## Result
