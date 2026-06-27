@@ -27,7 +27,7 @@ found http  service open on 192.168.56.30
 We try  **Directory enumeration** using gobuster
 
 
-![gobuster](images/running go buster.png)
+![gobuster](idocs/images/running go buster.png)
 
 
 
