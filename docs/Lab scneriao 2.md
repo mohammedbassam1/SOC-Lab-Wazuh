@@ -48,4 +48,29 @@ Get-Service
 
 ![PS](images/powershellcommnads.png)
 
+
+## Detection in Wazuh
+
+Wazuh successfully detected the activities performed during the attack simulation.
+
+The following events were observed:
+
+Successful Windows logon (Event ID 4624 - Logon Type 3), indicating remote network authentication.
+
+[Log](images/logonalerts.png)
+
+
+
+--- 
+
+[netuser](images/discoveryalert.png)
+
+PowerShell execution events generated after establishing the remote session.
+Sysmon Process Creation events showing PowerShell activity on the Windows endpoint.
+
+
+The collected events were correlated in the Wazuh Dashboard, allowing the attack sequence to be monitored from initial access to post-compromise enumeration.
+
+These alerts demonstrate Wazuh's ability to detect and monitor suspicious remote administration and post-access activity in real time.
+
 ذذ
