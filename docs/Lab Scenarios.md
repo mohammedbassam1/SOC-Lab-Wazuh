@@ -44,6 +44,37 @@ and also we found a DB user that use that password
 
 
 
+Detection Signals
+
+The following indicators were observed:
+
+- Large number of HTTP 404 responses (Not Found)
+- Sudden appearance of HTTP 200 responses on hidden endpoints
+- Repeated requests to multiple directories in a short time
+
+
+![Wazuh-alerts](images/wazuh-alerts.png)
+
+---
+
+## Investigation Process
+
+By analyzing the Wazuh alerts and web logs, it was identified that:
+
+- The attacker discovered a hidden directory
+- The directory contained sensitive information (e.g., password/config file)
+- Access to this endpoint returned HTTP 200 after enumeration attempts
+
+---
+
+## Result
+
+- Attack was successfully detected through log analysis
+- Wazuh correlated multiple failed and successful requests
+- Suspicious pattern was flagged as directory enumeration activity
+
+
+
 
 
 
