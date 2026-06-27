@@ -50,7 +50,7 @@ The following indicators were observed:
 
 - Large number of HTTP 404 responses (Not Found)
 - Sudden appearance of HTTP 200 responses on hidden endpoints
-- Repeated requests to multiple directories in a short time
+- Repeated requests to multiple directories in a short time  from a kali linux machine using go buster
 
 
 ![Wazuh-alerts](images/wazuh-alerts.png)
