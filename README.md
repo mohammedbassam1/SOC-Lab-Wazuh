@@ -90,6 +90,6 @@ The lab uses **two network adapters** per virtual machine:
 
 ---
 
-## 🚀 Status
+## Status
 
 Completed as a functional SOC lab environment and continuously improved with additional detection scenarios and security testing.
