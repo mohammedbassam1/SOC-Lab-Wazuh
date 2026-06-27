@@ -81,6 +81,7 @@ The lab uses **two network adapters** per virtual machine:
 ##  Key Features
 
 - Centralized log collection using Wazuh
+  
 - Endpoint monitoring (Windows & Linux)
 - Sysmon integration for Windows telemetry
 - Apache web server log monitoring
