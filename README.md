@@ -90,6 +90,17 @@ The lab uses **two network adapters** per virtual machine:
 
 ---
 
+## Architecture Diagram
+
+![Architecture](diagrams/diagram.png)
+
+This architecture shows how the SOC lab is structured.
+
+- Agents collect logs from endpoints
+- Wazuh Manager processes events
+- Indexer stores data
+- Dashboard displays alerts and logs
+
 ## Status
 
 Completed as a functional SOC lab environment and continuously improved with additional detection scenarios and security testing.
