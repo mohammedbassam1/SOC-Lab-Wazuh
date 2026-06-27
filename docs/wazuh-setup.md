@@ -1,6 +1,10 @@
 
 # Wazuh Installation & Setup Guide
 
+
+
+
+
 ## Installing  Wazuh on the host machine (iam using ubuntu )
 
 open a terminal  and use
@@ -26,7 +30,7 @@ Username
 Password
 ```
 
-Verifying  That Wazuh is working before  installing  Agents
+## Verifying  That Wazuh is working before  installing  Agents
 
 ### 1. Check Wazuh services
 
@@ -60,7 +64,6 @@ https://localhost
 
 ![Wazuh Dashboard](images/dashboard1.png)
 
-#### on the Ubuntu host itself.
 
 And from the VMs, the agents would communicate to:
 
@@ -68,7 +71,7 @@ And from the VMs, the agents would communicate to:
 192.168.56.1
 ```
 
-if u  want to start it  If its inactive
+### if u  want to start it  If its inactive
 
 
 ```
@@ -107,7 +110,9 @@ sudo systemctl enable --now wazuh-dashboard
 
 
 
-# Enabling Archive  ( writing all  logs/events )
+##  Enabling Archive  ( writing all  logs/events )
+
+
 ### 1. Wazuh Manager (`ossec.conf`)
 
 We made sure Wazuh writes all events to the archives log by enabling:
