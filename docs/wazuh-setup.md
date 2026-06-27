@@ -58,6 +58,8 @@ sudo ss -tlnp | grep -E '1514|1515|443'
 https://localhost
 ```
 
+![Wazuh Dashboard](images/dashboard.png)
+
 #### on the Ubuntu host itself.
 
 And from the VMs, the agents would communicate to:
