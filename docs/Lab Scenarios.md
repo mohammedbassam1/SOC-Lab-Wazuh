@@ -19,9 +19,16 @@ nmap 192.168.56.0/24
 
 ![nmap scan](images/nmap.png)
 
-to discover acive hosts
 
 found http  service open on 192.168.56.30
+
+
+
+We try  **Directory enumeration** using gobuster
+
+
+![gobuster](images/running go buster.png)
+
 
 
 we found  these directories we navigate  to them to found somethings
